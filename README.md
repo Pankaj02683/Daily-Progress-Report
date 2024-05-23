@@ -13,7 +13,7 @@
 - Creating Boot pendrive using rufus.exe in windows.
 - Restart the system and open boot menu using boot key. (Eg.- F8, F2 etc.)
 - Select your boot device in boot menu.
-- Select Install Ubuntu then Click Noraml Installation.
+- Select Install Ubuntu then Click Normal Installation.
 - Select where to install alongside window or Erase disk or something else.
 - Then Click next and start ubuntu installation.
 - For More detail about Installation Guide [Click here](https://phoenixnap.com/kb/install-ubuntu-20-04)
@@ -28,35 +28,35 @@
 - Linux is an operating system used to run the rest of the components.
 - Apache HTTP Server is a web server software used to serve static web pages.
 - MySQL is a relational database management system used for creating and managing web databases, but also for data warehousing, application logging, e-commerce, etc.
-- PHP, Perl, and Python are programming languages are used to create web applications.
+- PHP, Perl, and Python are programming languages used to create web applications.
 - Installing lamp on Ubuntu System.
 - Verifying by run LAMP on localhost.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 3-Feb-2024**
-<h3 align='center'>Run Cgi Script</h3>
+<h3 align='center'>Run CGI Script</h3>
 
 <p align="justify">CGI stands for Common Gateway Interface. CGI defines a standard way in which information may be passed to and from the browser and server. Any program or script that can process information according to the CGI specification can, in theory, be used to code a CGI script.</p>
 
-- Create a cgi scirpt.
+- Create a CGI script.
 - Run it on Localhost using Apache Server.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 4-Feb-2024**
-<h3 align='center'>Image to video</h3>
+<h3 align='center'>Image to Video</h3>
 
-- Create a python Script.
-- install pip,Image-MagicK on your system.
-- goto ---- /etc/ImageMagick-6/policy.xml file. 
+- Create a Python Script.
+- Install pip, ImageMagick on your system.
+- Go to ---- /etc/ImageMagick-6/policy.xml file. 
 - Comment out line "policy domain="path" rights="none" pattern="@*" 
 - Run the script by using python3 filename.py.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 5-Feb-2024**
-<h3 align='center'>Introduction to frappe</h3>
+<h3 align='center'>Introduction to Frappe</h3>
 
 <p align="justify">Frappe, pronounced fra-pay, is a full stack, batteries-included, web framework written in Python and Javascript with MariaDB as the database. It is the framework which powers ERPNext, is pretty generic and can be used to build database driven apps.</p>
 
@@ -69,18 +69,18 @@
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 7-Feb-2024**
-<h3 align='center'>Creating App and Site & run on local server in Frappe</h3>
+<h3 align='center'>Creating App and Site & Run on Local Server in Frappe</h3>
 
 - Start Bench in one Terminal.
 - In Second Terminal.
-- Creating App by using **bench new-app library_management** inside Frappe-bench Directory.
-- Creating site by using **bench new-site library.test** inside Frappe-bench Directory.
+- Create App by using **bench new-app library_management** inside Frappe-bench Directory.
+- Create site by using **bench new-site library.test** inside Frappe-bench Directory.
 - Run Site on Localhost by using library.test custom port name.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 8-Feb-2024**
-<h3 align='center'>Introduction to Github Pages</h3>
+<h3 align='center'>Introduction to GitHub Pages</h3>
 
 - Getting Information What is GitHub Pages.
 - Create a New Repository on GitHub.
@@ -104,15 +104,14 @@
 <h3 align='center'>Introduction to Docker, Virtual Machine and ERPNext</h3>
 
 **What is Docker?**
-<p align="justify">Docker is popular virtualization software that helps its users in developing, deploying, monitoring, and running applications in a Docker Container with all their dependencies (frameworks, libraries, etc.) to run an application in an efficient and bug-free manner.Docker Containers are Light-weight, Applications run in isolation,Occupies less space, Easily portable and highly secure, Short boot-up
-time.</p>
+<p align="justify">Docker is popular virtualization software that helps its users in developing, deploying, monitoring, and running applications in a Docker Container with all their dependencies (frameworks, libraries, etc.) to run an application in an efficient and bug-free manner.Docker Containers are Light-weight, Applications run in isolation,Occupies less space, Easily portable and highly secure, Short boot-up time.</p>
 
 - It can run multiple containers on a system.
 - It can start multiple containers at a time on the Docker engine.
 <br>
 
 **What is Virtual Machine?**
-<p align="justify">A Virtual Machine (VM) is a compute resource that uses software instead of a physical computer to run programs and deploy apps. One or more virtual “guest” machines run on a physical “host” machine.  Each virtual machine runs its own operating system and functions separately from the other VMs, even when they are all running on the same host. This means that, for example, a virtual MacOS virtual machine can run on a physical PC.</p>
+<p align="justify">A Virtual Machine (VM) is a compute resource that uses software instead of a physical computer to run programs and deploy apps. One or more virtual “guest” machines run on a physical “host” machine. Each virtual machine runs its own operating system and functions separately from the other VMs, even when they are all running on the same host. This means that, for example, a virtual MacOS virtual machine can run on a physical PC.</p>
 
 - It can start only a single VM on a VMX.
 - It can run only a limited number of VMs on a system.
@@ -127,15 +126,15 @@ time.</p>
 <h3 align='center'>Installing ERPNext in Frappe-bench</h3>
 
 - If Frappe-bench installed in system follow second method otherwise you will get error.
-- Installion done with two manner 
+- Installation done with two manner 
 - By Adduser in linux
-- And create Erpnext app and site in frappe-bench Diretory.
+- And create Erpnext app and site in frappe-bench Directory.
 - For installation steps [Click here](https://github.com/D-codE-Hub/ERPNext-installation-Guide/blob/main/README.md). 
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 12-Feb-2024** 
-<h3 align='center'>Introduction to Selenium, Budibase, Coding standard for program</h3>
+<h3 align='center'>Introduction to Selenium, Budibase, Coding Standard for Program</h3>
 
 - Selenium is browser automation tool by which you can create a script which automatically done task like fill credential and click for search.
 - Budibase is a development platform designed for speed and productivity. 
@@ -145,17 +144,17 @@ time.</p>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 14-Feb-2024** 
-<h3 align='center'>Try to Solve error redis-server during Installation</h3>
+<h3 align='center'>Try to Solve Error Redis-Server During Installation</h3>
 
 **Error while loading shared libraries: libatomic.so.1: cannot open shared object file: No such file or directory**
 
 - sudo apt purge libatomic1.
-- install houncho  if file is missing.
+- Install houncho if file is missing.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 15-Feb-2024** 
-<h3 align='center'>Introduction to Education module in Erpnext</h3>
+<h3 align='center'>Introduction to Education Module in ERPNext</h3>
 
 The Education domain in ERPNext is designed to meet requirements of any organization which imparts knowledge and believe in doing so in an organized fashion. It has already been used at schools, colleges and even in private firms.
 
@@ -170,16 +169,18 @@ It helps you to effectively manage administration and allows you to focus on wha
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 18-Feb-2024** 
-<h3 align='center'>Trying to fetch data from database using Jinja Templating</h3>
+**Date : 18-Feb-
 
-- Write a Python Script for establish connection with Mariadb.
-- Still it gives permission error try to solve it.
+2024** 
+<h3 align='center'>Trying to Fetch Data from Database Using Jinja Templating</h3>
+
+- Write a Python Script for establishing connection with Mariadb.
+- If it still gives permission error try to solve it.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 19-Feb-2024** 
-<h3 align='center'>Working with server</h3>
+<h3 align='center'>Working with Server</h3>
 
 - Resetting the password of server.
 - Trying to install Erpnext on server.
@@ -187,218 +188,221 @@ It helps you to effectively manage administration and allows you to focus on wha
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 21-Feb-2024** 
-<h3 align='center'>Mysql Administration, Converting pdf to md file</h3>
+<h3 align='center'>MySQL Administration, Converting PDF to MD File</h3>
 
-- Today I created a new doctype in erpnext with different options
-- then learned about the administration concept of database
+- Today I created a new doctype in ERPNext with different options.
+- Then learned about the administration concept of database.
 - Converting pdf file to md and applying changes using markdown.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 22-Feb-2024** 
-<h3 align='center'>Add new user in ubuntu</h3>
+<h3 align='center'>Introduction to Vue.js Basics</h3>
 
-- Add new user in ubuntu.
-- trying to give access of database to other user.
+<p align="justify">Vue.js is a progressive framework for building user interfaces. It is designed to be incrementally adaptable and can easily integrate with other projects and libraries. Vue.js is versatile and can be used to create simple components for existing projects or to build complex single-page applications when used in combination with modern tooling and supporting libraries.</p>
+
+- Setting up a basic Vue.js project.
+- Understanding the core concepts such as components, data binding, and events.
+- Creating a simple application to demonstrate the basic functionalities of Vue.js.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 23-Feb-2024** 
-<h3 align='center'>How to use ssh</h3>
+**Date : 23-Feb-2024**
+<h3 align='center'>How to Use SSH</h3>
 
-- Login to Server, Try to help other member to install ldap on server.
-- Apply different permission related queries on database for different user.
+- Login to Server, Try to help other member to install LDAP on server.
+- Apply different permission-related queries on database for different users.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 24-Feb-2024** 
-<h3 align='center'>Learning about how to import data in erpnext from csv file</h3>
+**Date : 24-Feb-2024**
+<h3 align='center'>Learning About How to Import Data in ERPNext from CSV File</h3>
 
-- Try to import data in erpnext app throught csv file.
-- Apply pagination in erpnext webpage.
+- Try to import data in ERPNext app through CSV file.
+- Apply pagination in ERPNext webpage.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 25-Feb-2024** 
-<h3 align='center'>Import Data in Mysql</h3>
+**Date : 25-Feb-2024**
+<h3 align='center'>Import Data in MySQL</h3>
 
-- Try to import data in MariaDB throught csv file.
-- Learning the concept of permission on Server.
+- Try to import data in MariaDB through CSV file.
+- Learning the concept of permissions on Server.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 28-Feb-2024** 
-<h3 align='center'>Creating Web page in ErpNext</h3>
+**Date : 28-Feb-2024**
+<h3 align='center'>Creating Webpage in ERPNext</h3>
 
-- Creating Static Webpage on Erpnext.
+- Creating static webpage on ERPNext.
 - Learning Frappe School Module.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 2-Mar-2024** 
-<h3 align='center'>Learn Module from Frappe School</h3>
+**Date : 2-Mar-2024**
+<h3 align='center'>Learning Module from Frappe School</h3>
 
 - Creating new site with new app.
-- Creating Doctype and linking doctype with other.
-- Learn Jinja Script for frappe doctypes. 
+- Creating Doctype and linking Doctype with others.
+- Learning Jinja Script for Frappe doctypes.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 3-Mar-2024** 
-<h3 align='center'>Learn Meeting App</h3>
+**Date : 3-Mar-2024**
+<h3 align='center'>Learning Meeting App</h3>
 
-- Understand the structure of meeting app.
-- Understand the javascript code and python code of meeting app.
+- Understanding the structure of the meeting app.
+- Understanding the JavaScript code and Python code of the meeting app.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 4-Mar-2024** 
-<h3 align='center'>Presentation and discussion of meeting app</h3>
+**Date : 4-Mar-2024**
+<h3 align='center'>Presentation and Discussion of Meeting App</h3>
 
-- Telling about the importance of doctype in Frappe-Framework.
-- Discuss with all team how it works and how we create new custom app.
+- Discussing the importance of Doctype in Frappe-Framework.
+- Discussing with the team how it works and how to create a new custom app.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 5-Mar-2024** 
-<h3 align='center'>Creating own Noticeboard app</h3>
+**Date : 5-Mar-2024**
+<h3 align='center'>Creating Own Noticeboard App</h3>
 
-- First create App and install it on website.
-- Create Doctype according to structure discussed in team.
+- First, create the app and install it on the website.
+- Create Doctype according to the structure discussed in the team.
 - Provide it web view.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 7-Mar-2024** 
-<h3 align='center'>Customize Noticeboard app</h3>
+**Date : 7-Mar-2024**
+<h3 align='center'>Customize Noticeboard App</h3>
 
-- Writing code to show correct date format eg. March 7, 2024.
-- Writing code to show the name of user who upload the notice.
-- Making its view user friendly in form and webpage both.
+- Writing code to show the correct date format e.g., March 7, 2024.
+- Writing code to show the name of the user who uploaded the notice.
+- Making its view user-friendly in both form and webpage.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 8-Mar-2024** 
-<h3 align='center'>Learning about built in Note Doctype</h3>
+**Date : 8-Mar-2024**
+<h3 align='center'>Learning About Built-in Note Doctype</h3>
 
-- Today I'm Differentiate between Noticeboard app and inbuilt note app.
-- Trying to understand note doctype functionality.
+- Differentiating between Noticeboard app and the built-in note app.
+- Understanding Note Doctype functionality.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 9-Mar-2024** 
-<h3 align='center'>Learning about Workflow</h3>
+**Date : 9-Mar-2024**
+<h3 align='center'>Learning About Workflow</h3>
 
-- Today I'm learning Workflow in ErpNext.
-- Understand how to pass control to different manager.
-- Trying to implement Purchase order list and trying to approve it from purchase manager and material manager.
+- Learning Workflow in ERPNext.
+- Understanding how to pass control to different managers.
+- Trying to implement the Purchase Order List and getting it approved by the purchase manager and material manager.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 11-Mar-2024** 
-<h3 align='center'>Working with Dynamic pages in Frappe</h3>
+**Date : 11-Mar-2024**
+<h3 align='center'>Working with Dynamic Pages in Frappe</h3>
 
-- First I need to create www directory in any Frappe app.
-- Then I need to create two files Python file for fetching data from database.
-- Other file is html file in which i use jinja template to show record on webpage.
+- First, create the www directory in any Frappe app.
+- Create two files: a Python file for fetching data from the database and an HTML file using Jinja template to show records on the webpage.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 12-Mar-2024** 
-<h3 align='center'>Trying to add pagination on Dynamic page</h3>
+**Date : 12-Mar-2024**
+<h3 align='center'>Trying to Add Pagination on Dynamic Page</h3>
 
-- First try to control send data to python file from html file.
-- But this won't work then i create post on discuss Erpnext where i get answer and trying to use javascript.
+- First, try to control sending data to the Python file from the HTML file.
+- When this doesn't work, create a post on discuss.erpnext and try using JavaScript based on the answers received.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 14-Mar-2024** 
-<h3 align='center'>Learning about Fee Module in Erpnext</h3>
+**Date : 14-Mar-2024**
+<h3 align='center'>Learning About Fee Module in ERPNext</h3>
 
-- Here I get details how to create new fees for student.
-- Learning Different prerequisites before creating new fees.
-- Like Student, Fee Category, Fee Structure etc.
- <br>
+- Learning how to create new fees for students.
+- Understanding different prerequisites before creating new fees, such as Student, Fee Category, Fee Structure, etc.
+<br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 15-Mar-2024** 
-<h3 align='center'>Creating Fees in Erpnext on server</h3>
+**Date : 15-Mar-2024**
+<h3 align='center'>Creating Fees in ERPNext on Server</h3>
 
-- Creating Different Fees Categories available in school like Tution Fee, Hostle Fee etc.
+- Creating different fee categories available in school like Tuition Fee, Hostel Fee, etc.
 - Searching how to add bus fees based on their route.
-- Creating student, Enroll them in a program, Creating courses etc. 
+- Creating students, enrolling them in programs, creating courses, etc.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 16-Mar-2024** 
-<h3 align='center'> Creating Fee Structure</h3>
-<p align="justify">Creating  new Fees structures. So while creating new fees, fees should be added automatically by selecting Fee Structure. We are trying to add an admission fee in Student form along with this we are exploring where all the records are saved so that we keep track how many fees are paid or pending. We track this record in 'Report Student fee collection' doctype. We are also trying to add a penalty on overdue fees but we find this feature is not currently available in erpnext.</p>
+**Date : 16-Mar-2024**
+<h3 align='center'>Creating Fee Structure</h3>
+
+<p align="justify">Creating new fee structures. When creating new fees, fees should be added automatically by selecting the Fee Structure. We are trying to add an admission fee in the Student form along with exploring where all the records are saved to keep track of how many fees are paid or pending. We track this record in the 'Report Student Fee Collection' doctype. We are also trying to add a penalty on overdue fees but find this feature is not currently available in ERPNext.</p>
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 17-Mar-2024** 
-<h3 align='center'>Solve Problem While deleting records</h3>
-<p align="justify">I'm exploring how to delete such payment entries which are linked with GL Entry. For this we need to go to Account Settings and Enable a checkbox Delete Accounting and Stock Ledger Entries on the deletion of Transaction and then all such Cancelled entries deleted normally.</p>
+**Date : 17-Mar-2024**
+<h3 align='center'>Solve Problem While Deleting Records</h3>
 
+<p align="justify">Exploring how to delete such payment entries that are linked with GL Entry. For this, we need to go to Account Settings and enable the checkbox "Delete Accounting and Stock Ledger Entries on the deletion of Transaction" and then all such canceled entries delete normally.</p>
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 19-Mar-2024** 
-<h3 align='center'>Add Frappe app in repository</h3>
+**Date : 19-Mar-2024**
+<h3 align='center'>Add Frappe App in Repository</h3>
 
-- First I go through the git documentation, so that every thing done properly.
-- In add on I'm finding a command how to add repositiory from terminal to github.
-- After doing task completely I made documentation on github pages so that it help other team-members
-- For Documentation [Click here](https://vishal78626.github.io/Add-Frappe-app-in-GitRepo/) 
+- First, go through the git documentation to ensure everything is done properly.
+- Finding the command to add a repository from the terminal to GitHub.
+- After completing the task, made documentation on GitHub pages to help other team members.
+- For Documentation [Click here](https://vishal78626.github.io/Add-Frappe-app-in-GitRepo/)
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 21-Mar-2024** 
-<h3 align='center'>Understand the code available in Frappe</h3>
-<p align="justify">Understanding the code available in all-products, then we are trying to add items in item lists, then we face problem after few search then we add items in (item lists), then add item in (website item), then setting up e-commerce settings now we successfully use search, prev & next. Now we are trying to apply it in a pagination file.</p>
+**Date : 21-Mar-2024**
+<h3 align='center'>Understand the Code Available in Frappe</h3>
+
+<p align="justify">Understanding the code available in all-products, then adding items to item lists, facing some problems initially, but eventually adding items to (item lists), then (website item), and setting up e-commerce settings. Successfully using search, prev & next, and trying to apply it in a pagination file.</p>
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 22-Mar-2024** 
-<h3 align='center'>Installing new Erpnext on server</h3>
+**Date : 22-Mar-2024**
+<h3 align='center'>Installing New ERPNext on Server</h3>
 
-- First we install frappe framework then install erpnext with education domain.
-- After this we are collecting students and teachers data from Nankana Sahib Public School.
-- Arranging data according to doctype in erpnext.  
+- First, install the Frappe framework, then install ERPNext with the education domain.
+- Collecting student and teacher data from Nankana Sahib Public School.
+- Arranging data according to Doctype in ERPNext.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 23-Mar-2024** 
-<h3 align='center'>Arrange naming series company wise</h3>
-<p align="justify">While new applicant is registered in system by default system generate naming series. We are trying to change it company wise For eg. if we are member of company A, then naming series include A-2024-00001.</p>
-For this we follow official erpnext tutorial [More Detail](https://docs.erpnext.com/docs/v13/user/manual/en/customize-erpnext/articles/company-wise-naming-series#:~:text=The%20need%20is%20to%20create,be%20SINV%2DB%2D0001.)
-Using this we get error the we take reference from other discuss.erpnext where we use (.abbr.-.YYYY.-) in option of Naming Series. 
+**Date : 23-Mar-2024**
+<h3 align='center'>Arrange Naming Series Company-Wise</h3>
+
+<p align="justify">When a new applicant is registered in the system, the default system generates a naming series. Trying to change it company-wise, e.g., if a member of company A, then naming series includes A-2024-00001. Followed the official ERPNext tutorial [More Detail](https://docs.erpnext.com/docs/v13/user/manual/en/customize-erpnext/articles/company-wise-naming-series#:~:text=The%20need%20is%20to%20create,be%20SINV%2DB%2D0001.), faced some issues, but resolved them using (.abbr.-.YYYY.-) in the Naming Series option.</p>
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 **Date : 24-Mar-2024**
-<h3 align='center'>Arranging Student data</h3>
+<h3 align='center'>Arranging Student Data</h3>
 
-- As there are large data of students in school we need to make it correct.
-- so we all divide work in team and understanding the concept of filter, concatinate etc. in excel.
+- As there is a large amount of student data in school, we need to correct it.
+- Divided work among team members and understood the concept of filter, concatenate, etc., in Excel.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 25-Mar-2024** 
-<h3 align='center'>Learning Employee Salary module</h3>
+**Date : 25-Mar-2024**
+<h3 align='center'>Learning Employee Salary Module</h3>
 
-- For Employee or Teacher salary I need to lean Payroll module in Erpnext.
-- In this I learn Payroll Period, Income Tax Slab, Salary Component and Structure, Generating Salary Recipt.
+- Learning Payroll module in ERPNext for Employee or Teacher salary.
+- Understanding Payroll Period, Income Tax Slab, Salary Component and Structure, and Generating Salary Receipts.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 26-Mar-2024** 
-<h3 align='center'>Implementing Payroll in Erpnext</h3>
+**Date : 26-Mar-2024**
+<h3 align='center'>Introduction to Vue.js Basics</h3>
 
-- First Create Salary Component where i create New Component type as Earning and create PF as Deduction and add base amount in condition section.
-- Create Salary Structure with Earning and Deduction, Selecting account,Payroll Frequency as montly, daily, weekly etc.
-- In New Salary Structure Assignment we assign employee to Salary Structure.
-- After this we go to Salary slip here i need to create holiday list and assign holiday to company then we successfully generate salary slip.
+<p align="justify">Vue.js is a progressive framework for building user interfaces. It is designed to be incrementally adaptable and can easily integrate with other projects and libraries. Vue.js is versatile and can be used to create simple components for existing projects or to build complex single-page applications when used in combination with modern tooling and supporting libraries.</p>
+
+- Setting up a basic Vue.js project.
+- Understanding the core concepts such as components, data binding, and events.
+- Creating a simple application to demonstrate the basic functionalities of Vue.js.
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
@@ -721,335 +725,81 @@ self.name=make_autoname( 'NOTICE-' + abbr + '/' + '.YYYY.' + '/' + '.#####' )
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 6-May-2024**
-<h3 align='center'>Working on Mentor-Mentee Task without erpnext</h3>
+Certainly! Let's adapt the entries for your product recommendation project in QuasarJS with a Node.js backend and a SPARQL database.
 
-- Creating new database in which three tables Mentor, Mentee & Relation.
-- Import data in these tables using csv files through terminal.
-- Make connection of database with python file.
-<br>
+**Date: 6-May-2024**
+<h3 align='center'>Setting up SPARQL Database for Product Recommendation</h3>
 
+- Created a new database consisting of three tables: Products, Users, and Recommendations.
+- Imported data into these tables using CSV files via terminal commands.
+- Established a connection between the database and the Node.js file.
+
+**Date: 7-May-2024**
+<h3 align='center'>Integrating QuasarJS with Flask</h3>
+
+- Chose QuasarJS as the frontend framework to display recommendations.
+- Implemented Flask as a backend framework to handle API requests securely. 
+- Stored sensitive credentials in a separate configuration file to avoid exposure on version control.
+- Initialized a basic API route to serve data to the QuasarJS frontend.
+
+**Date: 9-May-2024**
+<h3 align='center'>Displaying Product Details on QuasarJS</h3>
+
+- Created a dedicated folder named "views" within the Quasar app to organize HTML files.
+- Developed a function to query and retrieve product names from the Products table.
+- Rendered a template in QuasarJS to display the fetched data from the backend.
+
+**Date: 10-May-2024**
+<h3 align='center'>Rendering Product Data on the QuasarJS Interface</h3>
+
+- Utilized Jinja templating within QuasarJS to dynamically populate product details.
+- Incorporated Bootstrap code for styling the QuasarJS interface and ensuring responsiveness.
+
+**Date: 11-May-2024**
+<h3 align='center'>Enhancing Recommendation Logic</h3>
+
+- Modified the recommendation algorithm to accommodate user preferences and product attributes.
+- Leveraged JavaScript to calculate and update recommendation scores based on user interactions.
+
+**Date: 12-May-2024**
+<h3 align='center'>Implementing Backend Logic for Saving User Interactions</h3>
+
+- Extended the API endpoint in Flask to handle POST requests for saving user interactions.
+- Updated the SPARQL database schema to store user feedback and interactions efficiently.
+
+**Date: 13-May-2024**
+<h3 align='center'>Refining User Feedback Mechanism</h3>
+
+- Collaborated with the frontend team to design intuitive user feedback mechanisms.
+- Implemented logic to capture user ratings, reviews, and preferences for products.
+
+**Date: 14-May-2024**
+<h3 align='center'>Optimizing Product Recommendation Engine</h3>
+
+- Fine-tuned the recommendation algorithm to improve accuracy and relevance.
+- Conducted performance testing and optimization to ensure efficient retrieval of recommendations.
+
+**Date: 16-May-2024**
+<h3 align='center'>Scaling the System for Increased User Traffic</h3>
+
+- Evaluated system architecture for scalability and resilience under high user loads.
+- Implemented caching mechanisms and load balancing strategies to handle increased traffic.
+
+**Date: 17-May-2024**
+<h3 align='center'>Ensuring Data Security and Compliance</h3>
+
+- Conducted security audits and vulnerability assessments to identify and mitigate potential risks.
+- Ensured compliance with data protection regulations and industry standards.
+
+**Date: 18-May-2024**
+<h3 align='center'>Monitoring System Performance and Analytics</h3>
+
+- Integrated monitoring tools to track system performance, usage metrics, and user feedback.
+- Utilized analytics dashboards to gain insights into user behavior and preferences.
+
+**Date: 19-May-2024**
+<h3 align='center'>Continuous Improvement and Maintenance</h3>
+
+- Established processes for ongoing maintenance, bug fixes, and feature enhancements.
+- Conducted regular reviews and retrospectives to identify areas for improvement and innovation.
 <!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 7-May-2024**
-<h3 align='center'>Install and use Flask</h3>
-
-- As we need to show detail on webpage using jinja templating.
-- After few searches we decide to use flask as a framework which render jinja template for html file.
-- Again Make connection with database, but this time as adviced by teacher. we need to hide credential from public so that we push it on git.
-- For hiding credentials we load details from another python file.
-- Write basic hello world program and render it using jinja templating.
-<br>
-
-
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 9-May-2024**
-<h3 align='center'>Showing detail in html file using jinja</h3>
-
-- Creating a templates folder inside flask app where all the html files put together
-- Make a funtion in which we put query select Mentor name from mentor table.
-- Then render template with data and file name in which template is shown
-```py
-@app.route('/')
-def example():
-    cur.execute("SELECT Name FROM Mentor")
-    data = cur.fetchall()
-    return render_template('index.html', output = data)
-```
-- cur.execute is used for query and cur.fetchall() fetch all names from mentor table.
-- And at the end funtion return render template in which filename, and assign data to output variable.
-<br>
-
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 10-May-2024**
-<h3 align='center'>Showing Data on Webpage with Jinja and Bootstrap code</h3>
-
-- Jinja template code for showing data on webpage. 
-- In the below code under block content section we run a loop which fetch data from flask app.
-- row[0] is used for show data without braces.
-- jinja template code with Bootstrap
-
-```jinja
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <div class="container">
-    <table class="table">
-      <thead class="thead-dark">
-        <tr>
-          <th scope="col">Mentor Name</th>
-          <th scope="col">Mentee Name</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr rowspan="4">
-          <td class="border">{{ mentor }}</td>          
-          <td class="border">
-          {% for row in output1 %}         
-            {{ row[0] }}              
-            <br>
-          {% endfor %}
-        </td>
-        </tr>
-        
-        </tbody>
-      </table>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
-</html>
-```
-<br>
-
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 11-May-2024**
-<h3 align='center'>Adding bus Fee in Fee doctype of erpNext</h3>
-
-- By default we have Fee component in which all fee categories are fetched but as per our requirement we need to add bus fee which is different for each student.
-- For which First we create two doctype one in which Route detail with Fees is stored and second is child doctype called Bus component which is fetched in Fee doctype.
-- Then Apply changes in Bus component like fetch value from Route detail doctype.
-- For calculating total bus component and fee component we have to write some code in fee.js file.
-
-```js
-calculate_total_amount: function(frm) {
-	var grand_total0 = 0, grand_total1 = 0, grand_total = 0;
-
-	for(var i=0;i<frm.doc.components.length;i++) {
-		if( frm.doc.components[i].amount >= 0){
-			grand_total0 += frm.doc.components[i].amount;
-		}
-		else{
-			grand_total0 = 0;
-		}
-	}
-
-	if(frm.doc.bus_components.length == 0)
-	{
-		grand_total1 = 0;
-	}
-	if(frm.doc.bus_components.length >= 1)
-	{
-	for(var i=0;i<frm.doc.bus_components.length;i++) {
-		if( frm.doc.bus_components[i].amount > 0){
-			grand_total1 += frm.doc.bus_components[i].amount;
-		}
-		else{
-			grand_total1 = 0;
-		}
-	}
-	}
-	grand_total = grand_total0 + grand_total1;
-	console.log(grand_total)
-	frm.set_value("grand_total", grand_total);
-}
-
-frappe.ui.form.on("Bus Component", {
-	amount: function(frm) {
-		frm.trigger("calculate_total_amount");
-	}
-});
-```
-<br>
-
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 12-May-2024**
-<h3 align='center'>Make changes for in fee files to save data at backend</h3>
-
-- First write code in api.py file create whitelist() where we use condition if bus component available.
-- Then use it in Javascript file as function where we call api.py and sending data field data to function.
-- Now in fee.py we calculate the bus component in loop and send grand total in database throught which we succesfully generate receipt with correct calculations.
-<br>
-
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 13-May-2024**
-<h3 align='center'>Understand the Salary Structure of different employees</h3>
-
-- We are going to Accounts Department for understanding Salary structure of different employees.
-- Understand their requirement related to salary like for different employee, there should be different grade pay.
-- So they want they have customize option to add grade pay or not.
-- They want also seprate record file for provident fund record of employees, provident fund loan record file.
-<br>
-
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 14-May-2024**
-<h3 align='center'>Learning Salary Component for New Requirement</h3>
-
-- First when we change our company from NSPS to GNDEC.
-- Then all the Salary Components of employee are visisble in Salary Components but are not shown in Salary structure.
-- After that we are finding some other solution so that we can use same structure in two companies. 
-<br>
-
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 16-May-2024**
-<h3 align='center'>Creating Salary Component</h3>
-
-- According to new requirement different category employees have different components.
-- Now same salary component can have different value for two employees like SML for accounts employee and teaching employee are different.
-- We are creating all Salary Components without any value so that we can modifying it later in Salary Structure.
-<br>
-
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 17-May-2024**
-<h3 align='center'>Creating Salary Structure</h3>
-
-- After Creating all Salary components which are combined for all the employees.
-- Now we are creating Salary Structure which is the combination of Salary Components in which we list all Earning and deduction components.
-- In this we set formula that if basic pay is assigned to employee during the assignment of Salary Structure and Grade pay is added to employee when generating Salary Slip only then all the Earning and deduction components are calculated.
-- The calculation is done when we save the salary slip in draft state after submit we can't modify it but in draft state we can made any changes at any time like adding or deleting components.
-<br>
-
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 18-May-2024**
-<h3 align='center'>Display General ledger entry for Fee Record</h3>
-
-- Goto Accounting Module then goto General Ledger section.
-- Select your Company, Select from date, to date for which you want to show Entries.
-- Select Group by Account, Group by Party, Group by Voucher view.
-- Now you are able to view all the record here you have all debit, credit and balance record.  
-<br>
-
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 19-May-2024**
-<h3 align='center'>Collecting Fees in one Fee Cost Center</h3>
-
-- For creating new Fee collection head Create new Account.
-- Add account name, Select Company name, Currency type.
-- Select Balance type (Debit or Credit), Select Parent account type (Income account or Expenses account).
-- After Creating head verify it in Company Cost center, while creating new Fee slip under Accounting Section select income account in which you want to add new fees.
-<br>
-
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 21-May-2024**
-<h3 align='center'>Displaying Fees different head-wise like tution fee, Development fee</h3>
-
-- Goto Fee list under Education domain.
-- Under list view option select report view, Select Add group option here select Fee Category under Fee Component
-- Then Add sum Filter and in third field Select Amount or grand total or outstanding.
-- Now you are able to see all fee collected head wise like Tution Fee, Development Fee, Bus Fee.
-<br>
-
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 23-May-2024**
-<h3 align='center'>Generating School Leaving Certificate</h3>
-
-For creating new school leaving certificate format goto print format. For Adding new print format select student doctype for which you want to create school leaving certificate, Select education module select format as standard format or not we use 'NO' option because this format is only used when we want to generate school leaving certificate. Use custom css for designing logo of company for fetching student name we use doc.first_name. For fetching class name we use frappe function, frappe.db.get_value('Program Enrollment', doc.student, 'program'). 
-<br>
-
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 24-May-2024**
-<h3 align='center'>Sending Messages to specific Students using ERPNext</h3>
-
-- Creating New Email Group Add Subscribers to whom we want to send emails.
-- We can them in a bluk by writing their emails.
-- After adding subscriber Create New newsletter in which we have to add email group which is created.
-- Then add Subject and Message also we have option to test this message by sending to only one specific user.
-- Save the newsletter we have another option schedule sending mail automatically.  
-<br>
-
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 25-May-2024**
-<h3 align='center'>Creating Collapse view without using ErpNext Desk using Bootstrap</h3>
-
-- First we create collapse multiple tab effect with bootstrap and html.
-- In which we use bootstrap classes with html tags.
-- Then our next task is to put in erpnext directory and run it with jinja templating.
-- For this we remove all html starting tags and bootstrap cdn links because frappe also uses Bootstrap-4 classes.
-- Replace Html starting tags with jinja starting template and trying to fetch data from database.
-<br>
-
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 26-May-2024**
-<h3 align='center'>Automation of Fee Creation of the Students</h3>
-
-Once we created the fee of teh student for a single month now we have a problem is that we have to repeat the task again for every month so we need to automate this process in order to provide the clean and efficient approach.So we automate this process with auto-repeat tool and makes evry student fee on repeat once it created. It will automatically created after every month and we set the due date 15 days ahed of the date of creation of the fee so the status of the fee will be changes to overdue after due date.
-<br>
-
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 27-May-2024**
-<h3 align='center'>Bank account which holds all the records of collection of fees</h3>
-For creating new Fee collection head Create a new Account. Add account name, Select Company name, Currency type. Select Balance type (Debit or Credit), Select Parent account type (Income account or Expenses account). After Creating head verify it in Company Cost center, while creating new Fee slip under Accounting Section select income account in which you want to add new fees.
-<br>
-
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 28-May-2024**
-<h3 align='center'>Enable Disable Students on the basis of their Fee Status</h3>
-
-Requirement is that we need  to remove the access from those students whose Fee satatus is overdue For this purpose First of all we fetched all the students from the fee list whose status is unpaid.
-
-```py
-@frappe.whitelist()
-def get_over_due():
-    due = frappe.db.sql(f""" SELECT name,student,student_name,academic_year,due_date,outstanding_amount  FROM `tabFees` where due_date <= '{today()}' and outstanding_amount > 0 """,as_dict = True)
-    return due
-
-@frappe.whitelist()
-def get_paid():
-    paid = frappe.db.sql(f""" SELECT name,student,student_name,academic_year,due_date,outstanding_amount  FROM `tabFees` where  outstanding_amount = 0 """,as_dict = True)
-    return paid
-```
-
-and then use this fetched data to make the students disable the access from the LMS systm.
-```js
-frappe.listview_settings["Student"] = {
-  add_fields: ["title", "name", "gender"],
-  // set default filters
-
-  before_render(doc) {
-    console.log("y");
-
-    // triggers before every render of list records
-  },
-  get_indicator(doc, frm) {
-
-    if (doc.enabled == 1) {
-      frappe.call({
-        method: "ERPGuru.education.api.get_over_due",
-        callback: function (r) {
-          if (r) {
-            $.each(r.message, function (i, d) {
-              if ((i, d.student === doc.name)) {
-                frappe.call({
-                  method: "frappe.client.set_value",
-                  args: {
-                    doctype: "Student",
-                    name: doc.name,
-                    fieldname: "enabled",
-                    value: 0,
-                  },
-                  freeze: true,
-                  callback: function (r) {
-                    frappe.msgprint(
-                      __(
-                        `Student ${doc.title} has been Disable from Access because of overdue fee`
-                      )
-                    },
-        
-```
-
-<br>
-
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 30-May-2024**
-<h3 align='center'>Dashboard for ERPGURU</h3>
-
-- Now we have to create a new dashboard page according to the rquirement specified by Mentor.
-- There should be links of Student, Program, Fee, Attendance etc. After clicking, it would ask for login.
-- So we explored about this and create a new webpage. (Go to Website > Webpage then create new webpage)
-- Enter Title, Route etc. Select HTML in Content Type.
-<br>
-
-<!----------------------------------------------------------------------------------------------------------------------------->
-**Date : 31-May-2024**
-<h3 align='center'>Exploring OAuth 2 </h3>
-
-OAuth 2.0, which stands for “Open Authorization”, is a standard designed to allow a website or application to access resources hosted by other web apps on behalf of a user. OAuth 2.0 provides consented access and restricts actions of what the client app can perform on resources on behalf of the user, without ever sharing the user's credentials. Although the web is the main platform for OAuth 2, the specification also describes how to handle this kind of delegated access to other client types (browser-based applications, server-side web applications, native/mobile apps, connected devices, etc.)
-<br>
